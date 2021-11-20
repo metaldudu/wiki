@@ -86,7 +86,7 @@ wget/axel/aria2，三个命令行工具。qbittorrent用来下载磁力和BT。�
 - 影音：MPV / VLC / ~~SMPlayer~~
 - 录音：Audacity
 - RSS： [Liferea](https://lzone.de/liferea/)
-- PDF阅读：Evince
+- PDF：Evince / 剪裁工具[krop](http://arminstraub.com/software/krop) 
 - 图像处理：GIMP
 - 抓图：[Flameshot](https://github.com/lupoDharkael/flameshot) 绑定快捷键到 `flameshot -gui`
 - 下载：wget / alex  / [annie](https://github.com/iawia002/annie) / youtube-dl / qbittorrent

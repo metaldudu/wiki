@@ -31,7 +31,8 @@
 ###  效率
 
 - Loop Habit Tracker 习惯养成记录
-- Cx File Explorer 文件管理
+- Cx File Explorer 文件管理：免费，支持FTP/webdav/网盘映射
+- 输入法：同文输入法
 
 ### 编辑器
 
@@ -58,7 +59,7 @@
 ### 视频
 
 - VLC : 支持多种格式播放
-
+- bilibili：谷歌版更清爽一些
 
 ### Podcast
 
@@ -86,7 +87,6 @@
 
 - AirVisual : 空气质量查询、预测
 - [屏幕时钟](https://www.coolapk.com/apk/com.by_syk.screenclock)
-
 
 ### 一些手机网站
 
