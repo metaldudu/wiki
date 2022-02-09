@@ -6,10 +6,6 @@
 - [豆瓣](https://www.douban.com/)
 - [Google Books](https://books.google.com/)
 
-## 书写工具
-
-- [gitbook](https://www.gitbook.com/)
-
 ## 管理软件
 
 - [Calibre](http://calibre-ebook.com/)
@@ -40,8 +36,6 @@
 ### 搜索
 
 - [鸠摩搜书](http://www.jiumodiary.com/)
-- [BookZZ](http://zh.bookzz.org/)
-- [Libary Genesis](http://libgen.io/) [mirror](http://gen.lib.rus.ec/)
 
 ### 电子书库
 
