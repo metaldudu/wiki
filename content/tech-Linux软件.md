@@ -1,5 +1,34 @@
 # Linux下常用软件
 
+## 软件list
+
+- 发行版：Arch
+- 桌面：~~KDE~~ / matedesktop / xfce
+- 主题图标：numix-gtk-theme / papirus-icon-theme
+- 浏览器：Firefox / Chrome / chromium
+- 启动器：[Albert](https://albertlauncher.github.io/)
+- shell：bash / oh-my-zsh
+- 笔记编辑：Obsidian / VSCode / ~~Typora~~
+- 文档：WPS 
+- 网盘：坚果云
+- 电子书：Calibre / sigil / pandoc
+- 输入法：fcitx-rime ~~fcitx-Sogou~~
+- 音乐：Audacious / Kid3
+- 影音：MPV / VLC / ~~SMPlayer~~
+- 录音：Audacity
+- RSS： [Liferea](https://lzone.de/liferea/)
+- PDF：Evince / 剪裁工具[krop](http://arminstraub.com/software/krop) 
+- 图像处理：GIMP
+- 抓图：[Flameshot](https://github.com/lupoDharkael/flameshot) 绑定快捷键到 `flameshot -gui`
+- 下载：wget / alex  / [annie](https://github.com/iawia002/annie) / youtube-dl / qbittorrent  / [AriaNg](https://github.com/mayswind/AriaNg)
+- 解压缩：xarchive
+- 词典：GoldenDict / ~~ydcv~~
+- 即时通讯：微信（统信UOS 版） / ~~wewechat~~
+- 桌面显示：conky
+- 文件搜索：catfish
+
+---
+
 我用Linux做主力操作系统，也有大概5年了，期间也偶尔用其他系统。比如：
 
 1. 录音。我的笔记本声卡配置不好，在家用台式机win系统，Audacity这个开源录音软件。
@@ -67,32 +96,6 @@ wget/axel/aria2，三个命令行工具。qbittorrent用来下载磁力和BT。�
 
 奥卡姆剃刀原则说：如无必要、勿增实体。够用好用，还要怎样？
 
-## 软件list
-
-- 发行版：Arch
-- 桌面：KDE / matedesktop
-- 主题图标：numix-gtk-theme / papirus-icon-theme
-- 浏览器：Firefox / Chrome / chromium
-- 启动器：[Albert](https://albertlauncher.github.io/)
-- shell：bash / oh-my-zsh
-- 笔记编辑：Obsidian / VSCode / ~~Typora~~
-- 文档：WPS 
-- 网盘：坚果云
-- 电子书：Calibre / sigil / pandoc
-- 输入法：fcitx-rime ~~fcitx-Sogou~~
-- 音乐：DeeDBeeF / Kid3
-- 影音：MPV / VLC / ~~SMPlayer~~
-- 录音：Audacity
-- RSS： [Liferea](https://lzone.de/liferea/)
-- PDF：Evince / 剪裁工具[krop](http://arminstraub.com/software/krop) 
-- 图像处理：GIMP
-- 抓图：[Flameshot](https://github.com/lupoDharkael/flameshot) 绑定快捷键到 `flameshot -gui`
-- 下载：wget / alex  / [annie](https://github.com/iawia002/annie) / youtube-dl / qbittorrent  / [AriaNg](https://github.com/mayswind/AriaNg)
-- 解压缩：xarchive
-- 词典：GoldenDict / ~~ydcv~~
-- 即时通讯：微信（统信UOS 版） / ~~wewechat~~
-- 桌面显示：conky
-- 文件搜索：catfish
 
 ---
 
