@@ -10,15 +10,23 @@
 - 小众软件论坛 https://meta.appinn.net/
 - win下扩展平板手机做附屏 https://www.spacedesk.net/
 - win系统下载 http://www.songyongzhi.com/
-- 清华大学开源软件镜像站 https://mirrors.tuna.tsinghua.edu.cn/
 - 产品推荐 https://www.slant.co/
 - KMS https://github.com/abbodi1406/KMS_VL_ALL_AIO/releases
+- PE启动盘：优启通 https://www.upe.net/
 
+### arch linux
+- archlinux 简明指南 https://arch.icekylin.online/
+- 清华大学开源软件镜像站 https://mirrors.tuna.tsinghua.edu.cn/
+- 
 ### 安卓
 
 - 应用下载 https://apkcombo.com/
 - 应用下载 https://www.apkmirror.com/
 
+
+### Chrome扩展
+
+- uBlacklist 屏蔽google搜索中某个网站
 
 ### 油猴脚本
 
@@ -55,6 +63,7 @@
 ## 音频
 
 - 游戏音乐rip https://vgmrips.net/
+- 无损音频下载 http://www.23ape.net/
 
 ## 视频下载
 
