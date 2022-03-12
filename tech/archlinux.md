@@ -21,7 +21,7 @@
 
 ### XFCE4
 
-声音：安装 alsa-utils 和  pulseaudio。安装　`xfce4-pulseaudio-plugin` ，面板添加音量图标。
+声音：安装 alsa-utils 和  pulseaudio。安装　`xfce4-pulseaudio-plugin` ，面板添加音量图标，安装 pavucontrol 控制音频输出。
 
 主题： arc-gtk-theme 图标： papirus-icon-theme
 
@@ -74,7 +74,7 @@ MPV 主力播放， VLC 可以看网络直播流，也适合播放整个文件�
 
 mpv some-video.mp4 --sub-file=sub1.srt --sub-file=sub2.srt --secondary-sid=2
 
-在线工具合并两个字幕：https://easypronunciation.com/zh/merge-two-subtitle-files-online
+在线工具合并两个字幕： https://easypronunciation.com/zh/merge-two-subtitle-files-online
 
 mpv调整字幕大小，在 ~/.config/mpv/input.conf 加入：
 ```
@@ -94,7 +94,7 @@ pdf浏览就装 Evince ，剪裁工具 [krop](http://arminstraub.com/software/kr
 
 ### 编辑器
 
-Typora 收费后，直接全部用 Obsidian 解决笔记问题，单个文件用系统自带的 mousepad 打开。WPS 或 LibreOffice 选择安装。
+Typora 收费后，直接全部用 Obsidian 解决笔记问题，markdown无敌。单个文件用系统自带的 mousepad 打开。WPS 或者用在线文档对付msoffice格式。
 
 ### RSS
 
@@ -112,15 +112,18 @@ wget  / [annie](https://github.com/iawia002/annie) / youtube-dl / qbittorrent  /
 
 ### 网盘
 
-坚果云有些异常，待调整。
+坚果云强制关联 markdown 格式弃用。改用 syncthing ，配合GUI工具：https://github.com/Martchus/syncthingtray
 
 ### 外语学习
 
-GoldenDict 和 anki 装好每天都用d
+GoldenDict 配合词库。anki 要安装 aniki-bin ，否则插件可能版本不匹配。
 
-### Git
+### SSH and git
 
-
+- 安装 openssh git
+- 创建本地ssh key：` ssh-keygen -t rsa -C "youremail@example.com"`
+- 复制 `~.ssh/id_rsa.pub` 内容到github-Account settings-SSH Keys，Title随意
+- 配置git，参考：https://www.runoob.com/w3cnote/git-guide.html
 
 ### 其他问题
 
@@ -174,34 +177,10 @@ pacman -Qs xxx 查询已安装包
 
 则可以使用 ctrl+alt +L 锁定，返回 lightdm登录界面。可以安装 lightdm-gtk-greeter-settings 进一步美化登录界面。
 
-!!! 问题，关闭笔记本盖子再打开，屏幕会出现
-
-#: ../src/xfpm-power.c:436
-msgid ""
-"None of the screen lock tools ran successfully, the screen will not be locked.\n"
-"Do you still want to continue to suspend the system?"
-msgstr "嘿，所有锁屏工具都不能正常运行呢，所以我就无法锁定屏幕啦。\n您想继续挂起系统么？"
-
-
-edit /usr/bin/xflock4
 
 
 ## 软件
 
-### 坚果云
-
-    pacman -S nutstore jre10-openjdk
-
-选择其他jre环境报错，原因不明
-
-
-
-### SSH and git
-
-- 安装 openssh git
-- 创建本地ssh key：` ssh-keygen -t rsa -C "youremail@example.com"`
-- 复制 `~.ssh/id_rsa.pub` 内容到github-Account settings-SSH Keys，Title随意
-- 配置git，参考：https://www.runoob.com/w3cnote/git-guide.html
 
 ### Syncthing
 

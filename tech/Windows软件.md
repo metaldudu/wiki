@@ -45,9 +45,8 @@
 
 - [f.lux](https://justgetflux.com/) - 自动调节显示器色温
 - [chocolatey](http://chocolatey.org/) - 软件包管理工具
-- [rufus](https://github.com/zcodes/IMESupport) - 移动盘制作工具
+- [rufus](https://github.com/zcodes/IMESupport) - 启动盘制作工具，安装系统必备
 - [Fliqlo](http://fliqlo.com/) - 简洁的数字时钟屏保
-- [WorkFlowy](http://workflowy.com/) -列表记录工具
 
 ---
 
