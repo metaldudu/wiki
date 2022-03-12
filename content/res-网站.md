@@ -1,3 +1,5 @@
+<a href="../index.html">wiki home</a>
+
 #  网站搜罗
 
 ## 搜索引擎
@@ -82,10 +84,6 @@
 - XBOX成就 https://www.trueachievements.com/
 - SteamDB https://steamdb.info/
 
-### 在线小游戏
-
-- https://www.lessmilk.com/
-
 ## 法律
 
 - 国家法律法规数据库 https://flk.npc.gov.cn/
@@ -154,10 +152,9 @@
 
 -  https://www.badianyike.com/
 
-##  RSS
+##  信息来源
 
 - RSSHUB https://docs.rsshub.app/
-- 知乎专栏转rss https://rss.lilydjwg.me/
 
 
 

@@ -1,3 +1,5 @@
+<a href="../index.html">wiki home</a>
+
 # GoldenDict
 
 GoldenDict是一款免费的电子词典软件，它的优点包括：

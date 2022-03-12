@@ -1,3 +1,5 @@
+<a href="../index.html">wiki home</a>
+
 # 影视资源下载
 
 

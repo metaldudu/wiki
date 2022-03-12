@@ -1,3 +1,5 @@
+<a href="../index.html">wiki home</a>
+
 # 好习惯
 
 > 按：收集自网络

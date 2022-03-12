@@ -1,3 +1,5 @@
+<a href="../index.html">wiki home</a>
+
 # 清单-安卓APP
 
 ## 原则

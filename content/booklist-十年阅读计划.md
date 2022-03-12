@@ -1,3 +1,5 @@
+<a href="../index.html">wiki home</a>
+
 # 十年读书计划
 
 ## 书单

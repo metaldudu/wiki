@@ -1,3 +1,5 @@
+<a href="../index.html">wiki home</a>
+
 # 在线免费好片
 
 ## 华语

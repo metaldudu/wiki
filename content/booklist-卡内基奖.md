@@ -1,3 +1,5 @@
+<a href="../index.html">wiki home</a>
+
 # 卡内基奖中文电子书整理
 
 

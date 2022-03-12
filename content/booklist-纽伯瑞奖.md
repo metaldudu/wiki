@@ -1,3 +1,5 @@
+<a href="../index.html">wiki home</a>
+
 # 纽伯瑞奖收集整理
 
 ## 简介

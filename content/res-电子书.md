@@ -1,3 +1,5 @@
+<a href="../index.html">wiki home</a>
+
 # 电子书
 
 ## 查询

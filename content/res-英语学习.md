@@ -1,3 +1,5 @@
+<a href="../index.html">wiki home</a>
+
 # 英语学习相关
 
 ## 书籍
@@ -38,14 +40,6 @@
 - 书虫英语。英音、适合泛听，对应初中到高中各年级的水平
 - EnOnTV的分级阅读 level1-7 ，视频，b站和youtube，有文本。 https://www.bilibili.com/video/BV1SE411f7nc
 
-
-## anki
-
-anki词库：
-
-- 官方共享中文词库： https://ankiweb.net/shared/decks/chinese
-- jiahualong/anki-macmillan7000-libray: 采用批量制作卡制作macmillan7000单词卡: https://github.com/jiahualong/anki-macmillan7000-libray
-- 
 
 ---
 

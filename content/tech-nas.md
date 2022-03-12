@@ -1,3 +1,5 @@
+<a href="../index.html">wiki home</a>
+
 # NAS
 
 旧的PC安装 Ubuntu

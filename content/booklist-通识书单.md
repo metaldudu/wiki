@@ -1,3 +1,5 @@
+<a href="../index.html">wiki home</a>
+
 # 通识书单
 
 ## 说明
