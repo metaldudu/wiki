@@ -1,11 +1,10 @@
-<a href="../index.html">wiki home</a>
+<a href="../index.html">【wiki home】</a>
 
 #  网站搜罗
 
 ## 搜索引擎
 
-- DuckDuckGo https://duckduckgo.com/
-
+- DuckDuckGo [https://duckduckgo.com/](https://duckduckgo.com/)
 
 ## 软件
 

@@ -1,0 +1,11 @@
+body {padding:30px;}
+p { font-size: 110%; color: dimgray; }
+hr {border: 1px solid #666;}
+
+a {font-size: 110%; color: #4078c0;text-decoration: none;}
+a:hover,a:active {text-decoration: underline;}
+table th,table td {padding: 5px 13px;border: 1px solid #ddd;}
+table tr {background-color: #fff;border-top: 1px solid #ccc;}
+table tr:nth-child(2n) {background-color: #f8f8f8;}
+
+code{font-family:monospace,monospace;font-size:1em; background-color:#E7E9EB;}

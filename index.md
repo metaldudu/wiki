@@ -24,14 +24,10 @@
 
 ## 资源库
 
-- [网站搜罗](content/res-网站.md)
+- [网站搜罗](res-网站搜罗.md)
 - [音频](content/res-音频.md)
 - [影视](content/res-影视.md)
 - [在线免费好片](content/res-免费好电影.md)
 - [电子书](content/res-电子书.md)
 - [英语学习](content/res-英语学习.md)
 - [好习惯](content/res-好习惯.md)
-
----
-
- 这里是wiki文档，用以记录和分享信息。使用 [md_htmldoc](https://github.com/MatrixManAtYrService/md_htmldoc) 转换。

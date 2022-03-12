@@ -1,4 +1,4 @@
-<a href="../index.html">wiki home</a>
+<a href="../index.html">【wiki home】</a>
 
 # NEA票选100本儿童书
 
