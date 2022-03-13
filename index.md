@@ -1,4 +1,4 @@
-# wiki home
+
 
  这里是wiki文档，用以记录和分享信息。
 
@@ -21,6 +21,8 @@
 - [安卓常用APP](content/tech-安卓APP.md)
 - [GoldenDict](content/tech-GoldenDict.md)
 - [NAS搭建记录](content/tech-nas.md)
+- [VimWiki](content/tech-vimwiki.md)
+- [电子书相关](content/tech-电子书相关.md)
 
 ## 资源库
 
@@ -31,3 +33,13 @@
 - [电子书](content/res-电子书.md)
 - [英语学习](content/res-英语学习.md)
 - [好习惯](content/res-好习惯.md)
+
+---
+
+## TODO
+
+- 添加TOC并配合css显示在右侧
+- bash添加页面顶部导航栏，或iframe
+
+
+

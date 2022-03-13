@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>tech-电子书相关</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../wikicss.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="电子书相关">电子书相关</h1>
+<table style="width:6%;">
+<colgroup>
+<col style="width: 5%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>## 工具</td>
+</tr>
+<tr class="even">
+<td>- 管理工具：Calibre - 编辑器：Sigil / Pandoc - <a href="http://www.hi-pda.com/forum/viewthread.php?tid=645717">EasyPub</a> windows下的txt转换工具，最新版 v1.50 - 阅读器：桌面平台用 Calibre 内置阅读器，或者 kindle。安卓平台推荐 <a href="https://moondownload.com/chinese.html">静读天下 Moon+ Reader</a> : 排版优秀、支持格式丰富，支持OPDS</td>
+</tr>
+<tr class="odd">
+<td>## Calibre</td>
+</tr>
+<tr class="even">
+<td>### 传输</td>
+</tr>
+<tr class="odd">
+<td>1. Calibre 点击“连接/共享”图标，支持web访问，或者 OPDS 服务 2. 配置邮件，通过邮箱推送t到kindle，<a href="https://bookfere.com/tools#calibre">配置方法教程</a> 实测 azw3 格式才能良好支持字体，不能通过邮件推送 3. usb连接，kindle、手机都可以识别</td>
+</tr>
+<tr class="even">
+<td>### 插件</td>
+</tr>
+<tr class="odd">
+<td>- EpubSplit - 分割epub电子书，适合对合集电子书拆分 - Find Duplicate - 清理重复电子书 - DeDRM - 移除DRM（数字版权保护），购买正版书后可以去除保护并编辑修改</td>
+</tr>
+<tr class="even">
+<td>### calibre-web</td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/janeczku/calibre-web">calibre-web</a> 可以使用Calibre 生成的数据库和电子书文件，发布成在线图书馆，通过浏览器或OPDS服务访问。</td>
+</tr>
+<tr class="even">
+<td>## epub制作</td>
+</tr>
+<tr class="odd">
+<td>### 文本来源</td>
+</tr>
+<tr class="even">
+<td>- txt - 网页抓取 - OCR：ABBYY FineReader / <a href="https://cloud.baidu.com/product/ocr/general">百度AI</a></td>
+</tr>
+<tr class="odd">
+<td>### 正则表达式</td>
+</tr>
+<tr class="even">
+<td>使用正则表达式来修改txt文档。以vscode为例：</td>
+</tr>
+<tr class="odd">
+<td>- 替换“第一章”为“## 第一章”，替换<code>(第.*章)</code> 为 <code>## $1</code> - 换行后插入空白行，替换<code>\n</code> 为 <code>\n\n</code> - 匹配数字开头的行：<code>^[0-9][\s\S]*</code> 或 <code>^[0-9]+.*</code> - 非负整数  - 以“aaa”开始的行 ^aaa.<em>$ - 以“aaa”结尾的行 .</em>aaa$</td>
+</tr>
+<tr class="even">
+<td>文档：<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">Regular Expressions</a></td>
+</tr>
+<tr class="odd">
+<td>### Siglil 的正则替换</td>
+</tr>
+<tr class="even">
+<td>Sigil 编辑 epub 要比 Calibre 编辑器好用，我常用它来去广告，或者处理合集 epub 拆开后的文件。</td>
+</tr>
+<tr class="odd">
+<td>原文用小括号，替换用/1/2。例子：</td>
+</tr>
+<tr class="even">
+<td></td>
+</tr>
+<tr class="odd">
+<td>## 转换格式</td>
+</tr>
+<tr class="even">
+<td>- calibre 的命令行模式：<code>ebook-convert "book.epub" "book.mobi"</code> - kindlegen ，某些epub用 calibre 转换会失败</td>
+</tr>
+<tr class="odd">
+<td>### 使用pandoc转换文档</td>
+</tr>
+<tr class="even">
+<td>pandoc可以方便的生成带有目录的epub文档，以修改的好的markdown文本文档进行转换，例如</td>
+</tr>
+<tr class="odd">
+<td><code>pandoc 1.md -o 1.epub</code></td>
+</tr>
+<tr class="even">
+<td>### 自写的python脚本</td>
+</tr>
+<tr class="odd">
+<td>- <a href="https://github.com/metaldudu/py/blob/master/txt2md.py">txt2md.py</a> - <a href="https://github.com/metaldudu/py/blob/master/md2epub.py">md2epub.py</a></td>
+</tr>
+<tr class="even">
+<td>### 修正编码</td>
+</tr>
+<tr class="odd">
+<td>显示编码： <code>fiel -i 1.txt</code> ，或者安装 enca</td>
+</tr>
+<tr class="even">
+<td>- 显示编码： <code>enca 1.txt</code> - 转换成UTF-8： <code>enca -x UTF-8 1.txt</code> - 转换多个文件： <code>enca -x UTF-8 *</code> - 另存： <code>enca -x UTF-8 &lt;1.txt&gt; 2.txt</code> - 最好指定定语言： <code>enca -L zh_CN -x UTF-8 1.txt</code></td>
+</tr>
+<tr class="odd">
+<td>### 封面图片</td>
+</tr>
+<tr class="even">
+<td>图片大小：1570 x 2500</td>
+</tr>
+<tr class="odd">
+<td>## 漫画 <a href="https://tachiyomi.org/">Tachiyomi</a> ：漫画神器</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>20170307 建立</li>
+<li>20210313 更新</li>
+</ul>
+</body>
+</html>

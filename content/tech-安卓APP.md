@@ -40,7 +40,7 @@
 
 ## 阅读
 
-- Moon+ Reader : 排版优秀、支持格式丰富，支持OPDS
+- [静读天下 Moon+ Reader](https://moondownload.com/chinese.html) : 排版优秀、支持格式丰富，支持OPDS
 - fbReader : 开源，中文字体支持稍逊
 - 微信读书
 - Tachiyomi ：漫画神器

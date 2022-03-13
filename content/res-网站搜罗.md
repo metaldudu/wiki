@@ -117,6 +117,7 @@
 
 ### 壁纸
 - bing壁纸 https://peapix.com/bing/cn
+- bing壁紙 http://bing.plmeizi.com/
 
 ### 图标库
 
@@ -154,6 +155,7 @@
 ##  信息来源
 
 - RSSHUB https://docs.rsshub.app/
+- [FeedX – RSS全文订阅](https://feedx.net/)
 
 
 

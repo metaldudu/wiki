@@ -94,6 +94,12 @@ Calibre 安装好，导入书库。需要编辑epub 可以安装 Sigil，有打�
 
 pdf浏览就装 Evince ，剪裁工具 [krop](http://arminstraub.com/software/krop) 
 
+### pdftk
+
+- 提取pdf信息 `pdftk 1.pdf dump_data output out.txt`
+- 更新pdf信息 `pdftk 1.pdf update_info out.txt output new.pdf`
+- 合并 `pdftk file1.pdf file2.pdf cat output output.pdf`
+
 ### 编辑器
 
 Typora 收费后，直接全部用 Obsidian 解决笔记问题，markdown无敌。单个文件用系统自带的 mousepad 打开。WPS 或者用在线文档对付msoffice格式。
