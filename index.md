@@ -23,6 +23,11 @@
 - [NAS搭建记录](content/tech-nas.md)
 - [VimWiki](content/tech-vimwiki.md)
 - [电子书相关](content/tech-电子书相关.md)
+- [Chrome浏览器](content/tech-Chrome浏览器.md)
+- [电脑文件整理的12个tips](content/tech-电脑文件整理的12个tips.md)
+- [视频囤积的几个思路](content/tech-视频囤积的几个思路.md)
+- [安卓极简启动器对比](content/tech-极简启动器对比.md)
+- [小屏手机](content/tech-小屏手机.md)
 
 ## 资源库
 
@@ -39,7 +44,7 @@
 ## TODO
 
 - 添加TOC并配合css显示在右侧
-- bash添加页面顶部导航栏，或iframe
+
 
 
 
