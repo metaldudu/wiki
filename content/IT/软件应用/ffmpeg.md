@@ -1,4 +1,4 @@
-### ffmpeg
+# ffmpeg
 
 - [ffmpeg 入门笔记](http://einverne.github.io/post/2015/12/ffmpeg-first.html)
 
@@ -8,7 +8,7 @@
 b站flv转mp4：`ffmpeg -i S02E06.flv -c copy -copyts S02E06.mp4`
 
 
-### 合并mp4
+## 合并mp4
 
 `ffmpeg -f concat -i mylist.txt -c copy output.mp4`
 

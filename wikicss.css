@@ -1,8 +1,8 @@
-body {padding:30px;}
-p { font-size: 110%; color: dimgray; }
+body {padding:20px;}
+p,li,ul,h3,h4,h5 {font-size: 100%; }
 hr {border: 1px solid #666;}
 
-a {font-size: 110%; color: #4078c0;text-decoration: none;}
+a {color: #4078c0;text-decoration: none;}
 a:hover,a:active {text-decoration: underline;}
 table th,table td {padding: 5px 13px;border: 1px solid #ddd;}
 table tr {background-color: #fff;border-top: 1px solid #ccc;}
