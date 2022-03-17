@@ -110,7 +110,7 @@ Typora 收费后，直接全部用 Obsidian 解决笔记问题，markdown无敌�
 
 ### 下载
 
-wget  / [annie](https://github.com/iawia002/annie) / youtube-dl / qbittorrent  / [AriaNg](https://github.com/mayswind/AriaNg)
+wget  / [lux-dl](https://github.com/iawia002/lux) / youtube-dl / qbittorrent  / [AriaNg](https://github.com/mayswind/AriaNg)
 
 阿里云推荐用：阿里云盘小白羊版 https://github.com/liupan1890/aliyunpan
 

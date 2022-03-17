@@ -14,13 +14,14 @@
      - [电脑文件整理的12个tips](./content/IT/电脑文件整理的12个tips.html)
      - [视频囤积的几个思路](./content/IT/视频囤积的几个思路.html)
      - **linux/**
-       - [tech-archlinux](./content/IT/linux/tech-archlinux.html)
-       - [tech-nas](./content/IT/linux/tech-nas.html)
+       - [archlinux](./content/IT/linux/archlinux.html)
+       - [nas](./content/IT/linux/nas.html)
      - **手机/**
        - [安卓APP](./content/IT/手机/安卓APP.html)
        - [小屏手机](./content/IT/手机/小屏手机.html)
      - **软件应用/**
        - [Chrome浏览器](./content/IT/软件应用/Chrome浏览器.html)
+       - [Firefox浏览器](./content/IT/软件应用/Firefox浏览器.html)
        - [GoldenDict](./content/IT/软件应用/GoldenDict.html)
        - [aria2](./content/IT/软件应用/aria2.html)
        - [ffmpeg](./content/IT/软件应用/ffmpeg.html)
