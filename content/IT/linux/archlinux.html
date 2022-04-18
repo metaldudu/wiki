@@ -25,22 +25,30 @@
 <h3 id="系统安装">系统安装</h3>
 <p>按照wiki走一遍，不行就再来一遍。有可能踩坑：</p>
 <ul>
-<li>和win10共享ESP分区的话，100Mb 不够用，而且win10更新会导致 grub 错误。建议扩大 ESP 分区</li>
+<li>和win10共享ESP分区的话，100Mb 不够用，而且win10更新会导致 grub
+错误。建议扩大 ESP 分区</li>
 <li>命令行状态下要装好网络包</li>
-<li>自动挂载移动硬盘和U盘，安装 <code>ntfs-3g udevil</code> ，同时当前用户要增加权限</li>
+<li>自动挂载移动硬盘和U盘，安装 <code>ntfs-3g udevil</code>
+，同时当前用户要增加权限</li>
 </ul>
 <h3 id="字体">字体</h3>
-<p>查看中文字体： <code>fc-list :lang=zh</code> 可以看到字体名，便于配置软件</p>
+<p>查看中文字体： <code>fc-list :lang=zh</code>
+可以看到字体名，便于配置软件</p>
 <ul>
-<li>等宽字体： <code>pacman -S ttf-dejavu</code></li>
+<li>等宽字体： <code>pacman -S ttf-dejavu</code>
+<code>pacman -S otf-fira-mono</code></li>
 <li>emoji： <code>noto-fonts-emoji</code></li>
 <li>谷歌东亚字体：<code>noto-fonts-cjk</code></li>
 <li>文泉驿微米黑：<code>wqy-microhei</code></li>
-<li>思源宋体和黑体： adobe-source-han-serif-cn-fonts 和 adobe-source-han-sans-cn-fonts</li>
-<li>简体中文等距更纱黑体+Nerd图标字体库。 <code>yay -S nerd-fonts-sarasa-mono</code></li>
+<li>思源宋体和黑体： adobe-source-han-serif-cn-fonts 和
+adobe-source-han-sans-cn-fonts</li>
+<li>简体中文等距更纱黑体+Nerd图标字体库。
+<code>yay -S nerd-fonts-sarasa-mono</code></li>
 </ul>
 <h3 id="xfce4">XFCE4</h3>
-<p>声音：安装 alsa-utils 和 pulseaudio。安装　<code>xfce4-pulseaudio-plugin</code> ，面板添加音量图标。</p>
+<p>声音：安装 alsa-utils 和
+pulseaudio。安装　<code>xfce4-pulseaudio-plugin</code>
+，面板添加音量图标。</p>
 <p>主题： arc-gtk-theme 图标： papirus-icon-theme</p>
 <p>配置桌面快捷键：</p>
 <ul>
@@ -52,8 +60,13 @@
 <p>壁纸位置在：~/.local/share/xfce4/backdrops/</p>
 <h3 id="网络">网络</h3>
 <p>查询本机ip： <code>$curl ipinfo.io</code></p>
+<h3 id="terminal使用代理">terminal使用代理</h3>
+<pre><code>alias setproxy=&quot;export ALL_PROXY=socks5://127.0.0.1:1080&quot;
+alias unsetproxy=&quot;unset ALL_PROXY&quot;
+aliass ip=&quot;curl ipinfo.io&quot;</code></pre>
 <h3 id="启动">启动</h3>
-<p>Uluancher https://ulauncher.io/　，简单高效。无论用哪个平台都应该又一款趁手的启动器。</p>
+<p>Uluancher
+https://ulauncher.io/　，简单高效。无论用哪个平台都应该又一款趁手的启动器。</p>
 <h3 id="文件管理">文件管理</h3>
 <p>解压缩：xarchive ，文件搜索：catfish</p>
 <h3 id="浏览器">浏览器</h3>
@@ -69,11 +82,18 @@
 <li>shift+空格 切换全角/半角</li>
 </ul>
 <h3 id="图片">图片</h3>
-<p>编辑器用 GIMP，用惯了也还好。看图用 ristretto ，看漫画可以用 MComix 或 Foliate。截图用火焰截图 <a href="https://github.com/lupoDharkael/flameshot">Flameshot</a> ，截图可以绑定快捷键到 <code>flameshot gui</code></p>
+<p>编辑器用 GIMP，用惯了也还好。看图用 ristretto ，看漫画可以用 MComix
+或 Foliate。截图用火焰截图 <a
+href="https://github.com/lupoDharkael/flameshot">Flameshot</a>
+，截图可以绑定快捷键到 <code>flameshot gui</code></p>
 <h3 id="影音">影音</h3>
-<p>MPV 主力播放， VLC 可以看网络直播流，也适合播放整个文件夹。音乐播放用 Audacious ，需要编辑音乐信息装一个 Kid3。听在线音乐可以用 <a href="https://listen1.github.io/listen1/">Listen 1 音乐播放器</a> 。录音用 yAudacity。</p>
+<p>MPV 主力播放， VLC 可以看网络直播流，也适合播放整个文件夹。音乐播放用
+Audacious ，需要编辑音乐信息装一个 Kid3。听在线音乐可以用 <a
+href="https://listen1.github.io/listen1/">Listen 1 音乐播放器</a>
+。录音用 yAudacity。</p>
 <h4 id="mpv显示两个字幕">mpv显示两个字幕</h4>
-<p>mpv some-video.mp4 –sub-file=sub1.srt –sub-file=sub2.srt –secondary-sid=2</p>
+<p>mpv some-video.mp4 –sub-file=sub1.srt –sub-file=sub2.srt
+–secondary-sid=2</p>
 <p>在线工具合并两个字幕：https://easypronunciation.com/zh/merge-two-subtitle-files-online</p>
 <p>mpv调整字幕大小，在 ~/.config/mpv/input.conf 加入：</p>
 <pre><code># increase subtitle font size
@@ -82,25 +102,39 @@ ALT+k add sub-scale +0.1
 # decrease subtitle font size
 ALT+j add sub-scale -0.1</code></pre>
 <h3 id="电子书">电子书</h3>
-<p>Calibre 安装好，导入书库。需要编辑epub 可以安装 Sigil，有打包电子书的需要装 pandoc</p>
-<p>pdf浏览就装 Evince ，剪裁工具 <a href="http://arminstraub.com/software/krop">krop</a></p>
+<p>Calibre 安装好，导入书库。需要编辑epub 可以安装
+Sigil，有打包电子书的需要装 pandoc</p>
+<p>pdf浏览就装 Evince ，剪裁工具 <a
+href="http://arminstraub.com/software/krop">krop</a></p>
 <h3 id="pdftk">pdftk</h3>
 <ul>
 <li>提取pdf信息 <code>pdftk 1.pdf dump_data output out.txt</code></li>
-<li>更新pdf信息 <code>pdftk 1.pdf update_info out.txt output new.pdf</code></li>
-<li>合并 <code>pdftk file1.pdf file2.pdf cat output output.pdf</code></li>
+<li>更新pdf信息
+<code>pdftk 1.pdf update_info out.txt output new.pdf</code></li>
+<li>合并
+<code>pdftk file1.pdf file2.pdf cat output output.pdf</code></li>
 </ul>
 <h3 id="编辑器">编辑器</h3>
-<p>Typora 收费后，直接全部用 Obsidian 解决笔记问题，markdown无敌。单个文件用系统自带的 mousepad 打开。WPS 或者用在线文档对付msoffice格式。</p>
+<p>Typora 收费后，直接全部用 Obsidian
+解决笔记问题，markdown无敌。单个文件用系统自带的 mousepad 打开。WPS
+或者用在线文档对付msoffice格式。</p>
 <h3 id="rss">RSS</h3>
-<p><a href="https://lzone.de/liferea/">Liferea</a> ，本地浏览够用了。</p>
-<h3 id="下载">下载</h3>
-<p>wget / <a href="https://github.com/iawia002/lux">lux-dl</a> / youtube-dl / qbittorrent / <a href="https://github.com/mayswind/AriaNg">AriaNg</a></p>
-<p>阿里云推荐用：阿里云盘小白羊版 https://github.com/liupan1890/aliyunpan</p>
+<p><a href="https://quiterss.org/">QuiteRss</a>
+支持socks5代理，自定义快捷键。之前用了几年<a
+href="https://lzone.de/liferea/">Liferea</a></p>
+<p>### 下载</p>
+<p>wget / <a href="https://github.com/iawia002/lux">lux-dl</a> /
+youtube-dl / qbittorrent / <a
+href="https://github.com/mayswind/AriaNg">AriaNg</a></p>
+<p>阿里云推荐用：阿里云盘小白羊版
+https://github.com/liupan1890/aliyunpan</p>
 <h3 id="即时通讯">即时通讯</h3>
-<p>微信，尝试了几种包括统信UOS 版，现在使用web版凑合，使用率并不高。可以用下面命令开一个独立窗口。google-chrome-stable –new-window –app=https://wx.qq.com</p>
+<p>微信，尝试了几种包括统信UOS
+版，现在使用web版凑合，使用率并不高。可以用下面命令开一个独立窗口。google-chrome-stable
+–new-window –app=https://wx.qq.com</p>
 <h3 id="网盘">网盘</h3>
-<p>坚果云打开后白屏，按照<a href="https://blog.zhullyb.top/2021/10/02/nutstore-guide-on-archlinux-kde/">这里的提示</a>，执行：</p>
+<p>坚果云打开后白屏，按照<a
+href="https://blog.zhullyb.top/2021/10/02/nutstore-guide-on-archlinux-kde/">这里的提示</a>，执行：</p>
 <p><code>sudo sed -i 's|webui.enable=true|webui.enable=false|' /opt/nutstore/conf/nutstore.properties</code></p>
 <h3 id="外语学习">外语学习</h3>
 <p>GoldenDict 和 anki 装好每天都用d</p>
@@ -108,42 +142,58 @@ ALT+j add sub-scale -0.1</code></pre>
 <p>安装并配置连接github</p>
 <h3 id="其他问题">其他问题</h3>
 <h4 id="浏览器无法打开telegram-链接">浏览器无法打开telegram 链接</h4>
-<p>`<code>~/.local/share/applications</code> 找到 userapp-Telegram Desktop-xxxx.desktop ,在文件的最后添加一行：</p>
+<p>`<code>~/.local/share/applications</code> 找到 userapp-Telegram
+Desktop-xxxx.desktop ,在文件的最后添加一行：</p>
 <p><code>MimeType=application/x-xdg-protocol-tg;x-scheme-handler/tg;</code></p>
 <h4 id="pacman错误">pacman错误</h4>
-<p>invalid pgp key错误解决 : <code>$ sudo pacman-key --refresh-keys</code></p>
-<p>pacman -Syu 升级系统 pacman -Syy 同步软件列表 pacman -Scc 清理软件包 pacman -S xxx 安装 pacman -Ss xxx 查询 pacman -R xxx 卸载 pacman -Qs xxx 查询已安装包</p>
+<p>invalid pgp key错误解决 :
+<code>$ sudo pacman-key --refresh-keys</code></p>
+<p>pacman -Syu 升级系统 pacman -Syy 同步软件列表 pacman -Scc 清理软件包
+pacman -S xxx 安装 pacman -Ss xxx 查询 pacman -R xxx 卸载 pacman -Qs xxx
+查询已安装包</p>
 <h4 id="环境变量">环境变量</h4>
 <p>编辑 <code>~/.bashrc</code>，加入</p>
 <p><code>export PATH=$PATH:/somepath</code></p>
 <h2 id="old">old</h2>
 <hr />
 <h3 id="电源">电源</h3>
-<p>编辑： /etc/systemd/logind.conf 加入以下两行，实现笔记本合盖挂起系统：</p>
+<p>编辑： /etc/systemd/logind.conf
+加入以下两行，实现笔记本合盖挂起系统：</p>
 <pre><code>HandleLidSwitch=suspend
 HandleLidSwitchExternalPower=suspend</code></pre>
 <p>然后执行：<code>systemctl restart systemd-logind</code></p>
-<p>使用xfce后默认锁屏是xfce4-screensaver，调用 xflock4，黑屏无提示。卸载掉 xfce4-screensaver ，安装</p>
-<p><code>sudo pacman -S light-locker</code> <code>yay light-locker-settings</code></p>
-<p>然后在 设置&gt;配置编辑器&gt;xfce4-session&gt;general&gt;LockCommand 加入</p>
+<p>使用xfce后默认锁屏是xfce4-screensaver，调用
+xflock4，黑屏无提示。卸载掉 xfce4-screensaver ，安装</p>
+<p><code>sudo pacman -S light-locker</code>
+<code>yay light-locker-settings</code></p>
+<p>然后在 设置&gt;配置编辑器&gt;xfce4-session&gt;general&gt;LockCommand
+加入</p>
 <p><code>light-locker-command --lock</code></p>
-<p>则可以使用 ctrl+alt +L 锁定，返回 lightdm登录界面。可以安装 lightdm-gtk-greeter-settings 进一步美化登录界面。</p>
+<p>则可以使用 ctrl+alt +L 锁定，返回 lightdm登录界面。可以安装
+lightdm-gtk-greeter-settings 进一步美化登录界面。</p>
 <p>!!! 问题，关闭笔记本盖子再打开，屏幕会出现</p>
-<p>#: ../src/xfpm-power.c:436 msgid “” “None of the screen lock tools ran successfully, the screen will not be locked.” “Do you still want to continue to suspend the system?” msgstr “嘿，所有锁屏工具都不能正常运行呢，所以我就无法锁定屏幕啦。？”</p>
+<p>#: ../src/xfpm-power.c:436 msgid “” “None of the screen lock tools
+ran successfully, the screen will not be locked.” “Do you still want to
+continue to suspend the system?” msgstr
+“嘿，所有锁屏工具都不能正常运行呢，所以我就无法锁定屏幕啦。？”</p>
 <p>edit /usr/bin/xflock4</p>
 <h2 id="软件">软件</h2>
 <h3 id="ssh-and-git">SSH and git</h3>
 <ul>
 <li>安装 openssh git</li>
-<li>创建本地ssh key：<code>ssh-keygen -t rsa -C "youremail@example.com"</code></li>
-<li>复制 <code>~.ssh/id_rsa.pub</code> 内容到github-Account settings-SSH Keys，Title随意</li>
+<li>创建本地ssh
+key：<code>ssh-keygen -t rsa -C "youremail@example.com"</code></li>
+<li>复制 <code>~.ssh/id_rsa.pub</code> 内容到github-Account settings-SSH
+Keys，Title随意</li>
 <li>配置git，参考：https://www.runoob.com/w3cnote/git-guide.html</li>
 </ul>
 <h3 id="syncthing">Syncthing</h3>
 <ul>
 <li>安装 syncthing / syncthing-gtk</li>
-<li>加入服务： <code>sudo systemctl enable syncthing@laodu.service</code></li>
-<li>启动服务： <code>sudo systemctl start syncthing@laodu.service</code></li>
+<li>加入服务：
+<code>sudo systemctl enable syncthing@laodu.service</code></li>
+<li>启动服务：
+<code>sudo systemctl start syncthing@laodu.service</code></li>
 <li>本机地址： http://127.0.0.1:8384/</li>
 </ul>
 <hr />

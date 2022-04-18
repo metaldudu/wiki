@@ -27,12 +27,14 @@
 <ul>
 <li>samba 共享</li>
 <li>（完成） 实现邮件推送空气质量，依赖cron和python脚本</li>
-<li>calibre 电子书库，使用 <a href="https://github.com/janeczku/calibre-web">calibre-web</a></li>
+<li>calibre 电子书库，使用 <a
+href="https://github.com/janeczku/calibre-web">calibre-web</a></li>
 <li>ownCloud</li>
 </ul>
 <hr />
 <h2 id="cablre-web配置">cablre-web配置</h2>
-<p>acer上网本安装 Debian 11 ，不选图形界面，选择 SSH server，重启后root登录。</p>
+<p>acer上网本安装 Debian 11 ，不选图形界面，选择 SSH
+server，重启后root登录。</p>
 <h3 id="添加wifi">添加wifi</h3>
 <p><code>cd /etc/network/</code> ，编辑 <code>vi interfaces</code></p>
 <pre><code>allow-hotplug wlp2s0
@@ -58,10 +60,13 @@ user ALL=(ALL)ALL</code></pre>
 <p><code>chmod -w /etc/sudoers</code></p>
 <h3 id="安装-calibre-web">安装 calibre-web</h3>
 <p><code>sudo apt-get install pip</code></p>
-<p>按照主页安装 <a href="https://github.com/janeczku/calibre-web">janeczku/calibre-web</a></p>
+<p>按照主页安装 <a
+href="https://github.com/janeczku/calibre-web">janeczku/calibre-web</a></p>
 <p><code>pip install calibreweb</code></p>
-<p>添加 ~/.local/bin/ 到系统 PATH，用 <code>cps</code> 命令启动，本地访问 http://localhost:8083</p>
-<p>添加为系统服务： https://github.com/janeczku/calibre-web/wiki/Setup-Service-on-Linux</p>
+<p>添加 ~/.local/bin/ 到系统 PATH，用 <code>cps</code>
+命令启动，本地访问 http://localhost:8083</p>
+<p>添加为系统服务：
+https://github.com/janeczku/calibre-web/wiki/Setup-Service-on-Linux</p>
 <p>创建好服务脚本，启动即可</p>
 <h3 id="frpc-反向代理">frpc 反向代理</h3>
 <p><a href="https://github.com/fatedier/frp">fatedier/frp</a></p>
@@ -130,7 +135,8 @@ dns-nameservers 202.99.160.68
 <p>1.安装 <code>sudo apt-get install openssh-server</code></p>
 <p>2.修改配置文件，位置在：etc/ssh/sshd_config</p>
 <p>3.服务控制：<code>sudo /etc/init.d/ssh start|stop|restart</code></p>
-<p>4.登录服务器：<code>ssh username@192.168.1.133</code>，退出 <code>logout</code></p>
+<p>4.登录服务器：<code>ssh username@192.168.1.133</code>，退出
+<code>logout</code></p>
 <p>5.拷贝文件：<code>scp -r localfolder username@192.168.1.133:remotefolder</code></p>
 <h3 id="配置samba">配置Samba</h3>
 <ol type="1">
@@ -140,7 +146,8 @@ dns-nameservers 202.99.160.68
 <li>修改配置文件，位置在：/etc/samba/smb.conf</li>
 </ol>
 <h4 id="配置文件修改">配置文件修改</h4>
-<p>1.保存现有文件 <code>sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.bak</code></p>
+<p>1.保存现有文件
+<code>sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.bak</code></p>
 <p>2.创建新文件 <code>sudo vi /etc/samba/smb.conf</code></p>
 <p>3.增加以下内容</p>
 <pre><code>[myshare]
@@ -156,12 +163,14 @@ sudo smbpasswd -a yourusername</code></pre>
 <p>6.测试连接 <code>smbclient -L //localhost/myshare</code></p>
 <p>7.其他</p>
 <ul>
-<li>Linux计算机连接，使用 <code>ssh user@IP</code>，退出使用 <code>exit</code></li>
+<li>Linux计算机连接，使用 <code>ssh user@IP</code>，退出使用
+<code>exit</code></li>
 <li>拷贝文件夹 使用 cp -r</li>
 <li>Debian优盘没有写权限解决方法：https://askubuntu.com/questions/296331/how-to-mount-a-hard-disk-as-read-only-from-the-terminal</li>
 </ul>
 <h3 id="mediatomb">MediaTomb</h3>
-<p><a href="http://mediatomb.cc/">MediaTomb</a> 是支持 <a href="https://zh.wikipedia.org/zh-cn/UPnP">UPnP</a> 的媒体服务端。</p>
+<p><a href="http://mediatomb.cc/">MediaTomb</a> 是支持 <a
+href="https://zh.wikipedia.org/zh-cn/UPnP">UPnP</a> 的媒体服务端。</p>
 <p><code>sudo apt-get install mediatomb</code></p>
 <p>默认页面：<code>http://localhost:49152</code>，配置文件在：/etc/mediatomb/config.xml</p>
 <ul>
@@ -170,14 +179,18 @@ sudo smbpasswd -a yourusername</code></pre>
 <li>可以定时扫描目录，便于跟下载配合</li>
 </ul>
 <h3 id="aria2">aria2</h3>
-<p><a href="https://aria2.github.io/">aria2</a> 用来下载bt/磁力，配合 <a href="https://github.com/ziahamza/webui-aria2">webui-aria2</a>，安装方法：</p>
+<p><a href="https://aria2.github.io/">aria2</a> 用来下载bt/磁力，配合 <a
+href="https://github.com/ziahamza/webui-aria2">webui-aria2</a>，安装方法：</p>
 <ol type="1">
 <li><code>apt-get install aria2</code></li>
-<li>参考这篇配置脚本：<a href="https://blog.ghostry.cn/server/746.html">https://blog.ghostry.cn/server/746.html</a></li>
+<li>参考这篇配置脚本：<a
+href="https://blog.ghostry.cn/server/746.html">https://blog.ghostry.cn/server/746.html</a></li>
 <li>配合百度云下载</li>
 </ol>
 <h3 id="qbittorrent">qbittorrent</h3>
-<p>安装和运行 qbittorrent-nox ，本地8080端口，默认用户名admin，密码adminadmin (https://github.com/qbittorrent/qBittorrent/wiki/Running-qBittorrent-without-X-server)</p>
+<p>安装和运行 qbittorrent-nox
+，本地8080端口，默认用户名admin，密码adminadmin
+(https://github.com/qbittorrent/qBittorrent/wiki/Running-qBittorrent-without-X-server)</p>
 <h3 id="播放端">播放端</h3>
 <h3 id="安卓">安卓</h3>
 <ol type="1">
@@ -191,16 +204,22 @@ sudo smbpasswd -a yourusername</code></pre>
 </ol>
 <h3 id="其他">其他</h3>
 <ol type="1">
-<li>Arch linux 下安装 <code>gvfs-smb</code>，即可在 Thunar 中访问SMB，如 <code>smb://192.168.1.127/myshare/</code></li>
+<li>Arch linux 下安装 <code>gvfs-smb</code>，即可在 Thunar 中访问SMB，如
+<code>smb://192.168.1.127/myshare/</code></li>
 <li>windows 下直接使用网上邻居</li>
 <li>投影仪DLNA功能，待测试</li>
 </ol>
 <p>参考资料</p>
 <ul>
-<li><a href="https://www.howtoforge.com/creating-a-home-media-and-file-server-with-ubuntu">Creating A Home Media &amp; File Server With Ubuntu</a></li>
-<li><a href="http://www.cnblogs.com/phinecos/archive/2009/06/06/1497717.html">Ubuntu下配置samba实现文件夹共享</a></li>
-<li><a href="https://www.zhihu.com/question/21359049">知乎：自己家里搭建NAS服务器有什么好方案？</a></li>
-<li><a href="http://post.smzdm.com/p/534074/p2/">skylake架构DIY NAS 篇二：打造属于自己的私人云书库</a></li>
+<li><a
+href="https://www.howtoforge.com/creating-a-home-media-and-file-server-with-ubuntu">Creating
+A Home Media &amp; File Server With Ubuntu</a></li>
+<li><a
+href="http://www.cnblogs.com/phinecos/archive/2009/06/06/1497717.html">Ubuntu下配置samba实现文件夹共享</a></li>
+<li><a
+href="https://www.zhihu.com/question/21359049">知乎：自己家里搭建NAS服务器有什么好方案？</a></li>
+<li><a href="http://post.smzdm.com/p/534074/p2/">skylake架构DIY NAS
+篇二：打造属于自己的私人云书库</a></li>
 </ul>
 </body>
 </html>
