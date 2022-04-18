@@ -53,7 +53,7 @@
 - ImageAssistant Batch Image Downloader - 批量下载图片
 - Modern Design for Wikipedia - 优化维基百科页面
 - OneTab - 多个tab收缩为链接页面，减少内存占用
-- uBlacklist - 在google搜索中屏蔽某些垃圾网站
+- uBlacklist - 在google搜索中屏蔽某些垃圾网站，订阅这个[黑名单](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist)
 - Video DownloadHelper - 在线视频地址抓取
 
 

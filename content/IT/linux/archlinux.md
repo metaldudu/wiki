@@ -14,7 +14,8 @@
 
 查看中文字体： `fc-list :lang=zh` 可以看到字体名，便于配置软件
 
-- 等宽字体： `pacman -S ttf-dejavu`
+- 等宽字体： `pacman -S ttf-dejavu` `pacman -S otf-fira-mono
+`
 - emoji： `noto-fonts-emoji`
 - 谷歌东亚字体：`noto-fonts-cjk`
 - 文泉驿微米黑：`wqy-microhei`
@@ -39,6 +40,16 @@
 ###  网络
 
 查询本机ip： `$curl ipinfo.io`
+
+
+### terminal使用代理
+
+```
+alias setproxy="export ALL_PROXY=socks5://127.0.0.1:1080"
+alias unsetproxy="unset ALL_PROXY"
+aliass ip="curl ipinfo.io"
+```
+
 
 ### 启动
 
@@ -106,9 +117,9 @@ Typora 收费后，直接全部用 Obsidian 解决笔记问题，markdown无敌�
 
 ### RSS
 
- [Liferea](https://lzone.de/liferea/) ，本地浏览够用了。
-
-### 下载
+ [QuiteRss](https://quiterss.org/) 支持socks5代理，自定义快捷键。之前用了几年[Liferea](https://lzone.de/liferea/) 
+ 
+ ### 下载
 
 wget  / [lux-dl](https://github.com/iawia002/lux) / youtube-dl / qbittorrent  / [AriaNg](https://github.com/mayswind/AriaNg)
 
