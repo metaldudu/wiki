@@ -59,6 +59,8 @@ Uluancher https://ulauncher.io/　，简单高效。无论用哪个平台都应�
 
 解压缩：xarchive ，文件搜索：catfish
 
+访问共享，安装 `gvfs-smb`
+
 ### 浏览器
 
 Chrome 同步难但易用，Firefox 在我这里总有小问题。
