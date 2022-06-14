@@ -177,7 +177,7 @@ dns-nameservers 202.99.160.68
 
 ### 配置Samba
 
-1. 安装 `sudo apt-get install samba cifs-utils`
+1. 安装 `sudo apt-get install samba`
 2. 设置目录：`sudo mkdir /home/share`
 3. 修改权限：`sudo chmod 777 /home/share`
 4. 修改配置文件，位置在：/etc/samba/smb.conf
@@ -185,9 +185,7 @@ dns-nameservers 202.99.160.68
 #### 配置文件修改
 
 1.保存现有文件 `sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.bak`
-
 2.创建新文件 `sudo vi /etc/samba/smb.conf`
-
 3.增加以下内容
 
 ````
@@ -206,9 +204,7 @@ sudo touch /etc/samba/smbpasswd
 sudo smbpasswd -a yourusername
 ````
 
-5.重启Samba `sudo /etc/init.d/samba restart`
-
-6.测试连接 `smbclient -L //localhost/myshare`
+5.重启Samba `sudo systemctl restart smbd.service`
 
 7.其他
 

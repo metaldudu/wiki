@@ -10,6 +10,13 @@
 - 命令行状态下要装好网络包
 - 自动挂载移动硬盘和U盘，安装 `ntfs-3g udevil` ，同时当前用户要增加权限。解决弹出提示输入密码的问题：[链接](https://askubuntu.com/questions/552503/stop-asking-for-authentication-to-mount-usb-stick)
 
+### yay
+
+yay -Ps    现状展示
+yay -Qu 查看待升级的包
+yay -Sc    清理
+
+
 ### 字体
 
 查看中文字体： `fc-list :lang=zh` 可以看到字体名，便于配置软件
@@ -21,6 +28,14 @@
 - 文泉驿微米黑：`wqy-microhei`
 - 思源宋体和黑体： adobe-source-han-serif-cn-fonts 和 adobe-source-han-sans-cn-fonts
 - 简体中文等距更纱黑体+Nerd图标字体库。 `yay -S nerd-fonts-sarasa-mono`
+
+自己安装的字体放到 `~/.local/share/fonts`
+
+适合阅读和电纸书的字体
+
+- 仓耳今楷
+- 方正悠宋
+- 方正宋刻本秀楷
 
 ### XFCE4
 
@@ -57,7 +72,7 @@ Uluancher https://ulauncher.io/　，简单高效。无论用哪个平台都应�
 
 ### 文件管理
 
-解压缩：xarchive ，文件搜索：catfish
+解压缩：File Roller ，文件搜索：catfish
 
 访问共享，安装 `gvfs-smb`
 
@@ -70,11 +85,13 @@ Chrome 同步难但易用，Firefox 在我这里总有小问题。
 选择 fcitx5 和 rime ，使用：
 
 - 四叶草拼音方案 https://github.com/fkxxyz/rime-cloverpinyin
-- 皮肤 https://github.com/hosxy/Fcitx5-Material-Color
+- 皮肤 https://github.com/hosxy/Fcitx5-Material-Color 修改成了#666666 灰色
 
-比起默认的拼音更适合简体中文用户。一些tips
+比起默认的拼音更适合简体中文用户。一些快捷键：
 
+- F4 设置菜单
 - shift+空格 切换全角/半角
+- ctrl+shift+3 切换emoji
 
 ### 图片
 
@@ -115,7 +132,11 @@ pdf浏览就装 Evince ，剪裁工具 [krop](http://arminstraub.com/software/kr
 
 ### 编辑器
 
-Typora 收费后，直接全部用 Obsidian 解决笔记问题，markdown无敌。单个文件用系统自带的 mousepad 打开。WPS 或者用在线文档对付msoffice格式。
+Typora 收费后，直接全部用 Obsidian 解决笔记问题，markdown无敌。单个文件用系统自带的 mousepad 打开。LibreOffice 或者用在线文档对付msoffice格式。
+
+```
+sudo pacman -S libreoffice-still libreoffice-still-zh-cn
+```
 
 ### RSS
 
@@ -231,12 +252,16 @@ edit /usr/bin/xflock4
 
 
 
-
----
-
 ## 结语
 
 奥卡姆剃刀原则说：如无必要、勿增实体。够用好用，还要怎样？
+
+---
+
+参考：
+
+- https://oscarcx.com/tech/manjaro-xfce-setup.html
+
 
 - 20191029 创建
 - 20220304 更新

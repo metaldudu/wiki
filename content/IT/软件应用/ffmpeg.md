@@ -48,3 +48,10 @@ wav to mp3
 ````
 ffmpeg -i input.wav -vn -ar 44100 -ac 2 -b:a 192k output.mp3
 ````
+
+### 添加硬字幕
+
+```
+ffmpeg -i mymovie.mp4 -vf subtitles=subtitles.srt mysubtitledmovie.mp4
+```
+

@@ -26,7 +26,6 @@
        - [GoldenDict](./content/IT/软件应用/GoldenDict.html)
        - [aria2](./content/IT/软件应用/aria2.html)
        - [ffmpeg](./content/IT/软件应用/ffmpeg.html)
-       - [lux](./content/IT/软件应用/lux.html)
        - [vimwiki](./content/IT/软件应用/vimwiki.html)
        - [youtube-dl](./content/IT/软件应用/youtube-dl.html)
        - [下载影视管理](./content/IT/软件应用/下载影视管理.html)
