@@ -11,6 +11,11 @@
 * calibre 电子书库，使用 [calibre-web](https://github.com/janeczku/calibre-web)
 * ownCloud
 
+可以参考的例子：
+
+- https://noted.lol/what-are-your-most-used-self-hosted-applications/
+- 
+
 ---
 
 ## cablre-web配置
@@ -84,7 +89,7 @@ user ALL=(ALL)ALL
 
  [fatedier/frp](https://github.com/fatedier/frp)
 
-palm给的frpc服务，下载到 ~/frpc ，配置 frpc.ini
+下载到 ~/frpc ，配置 frpc.ini
 
 ```
 [common]  

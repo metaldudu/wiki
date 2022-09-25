@@ -23,7 +23,6 @@
 
 ## 笔记、清单
 
-- Trello
 - WorkFlowy
 - Microsoft To Do 微软平台同步
 
@@ -32,7 +31,7 @@
 
 - Loop Habit Tracker 习惯养成记录
 - Cx File Explorer 文件管理：免费，支持FTP/webdav/网盘映射
-- 输入法：谷歌拼音，旧但简单
+- 输入法：~~谷歌拼音，旧但简单~~ [Fcitx 安卓版](https://github.com/fcitx5-android/fcitx5-android)，还有[词库](https://github.com/wuhgit/CustomPinyinDictionary)
 
 ## 编辑器
 
@@ -42,18 +41,18 @@
 
 - [静读天下 Moon+ Reader](https://moondownload.com/chinese.html) : 排版优秀、支持格式丰富，支持OPDS
 - fbReader : 开源，中文字体支持稍逊
-- 微信读书
+- [Pdf Viewer Plus](https://f-droid.org/en/packages/com.gsnathan.pdfviewer/)：平板看pdf
 - Tachiyomi ：漫画神器
 
 ## 浏览器
 
-- Chrome
+- Firefox
 - Via : 体积小功能足够
 
 ## 音乐
 
 - Musicolet Music Player - 功能全面，对播放列表支持很好
-- Listen 1
+- Listen 1：在线音乐汇集
 
 ## 视频
 
@@ -76,19 +75,15 @@
 ## 外语学习
 
 - AnkiDroid - 记忆神器
-- 多邻国
-
-## 字典
-
 - MDict : 配合词典文件
 
 ## 其他
 
 - AirVisual : 空气质量查询、预测
-- 时间插件：[BobClockD3 - Apps on Google Play](https://play.google.com/store/apps/details?id=bob.clock&hl=en)
+- 时钟插件：[Sony Clock widgets APKs - APKMirror](https://www.apkmirror.com/apk/sony-mobile-communications/clock-widgets/)
 - [屏幕时钟](https://www.coolapk.com/apk/com.by_syk.screenclock)
 
 
 ---
 
-- 20220209更新
+- 20220925

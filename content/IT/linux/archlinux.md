@@ -10,6 +10,12 @@
 - 命令行状态下要装好网络包
 - 自动挂载移动硬盘和U盘，安装 `ntfs-3g udevil` ，同时当前用户要增加权限。解决弹出提示输入密码的问题：[链接](https://askubuntu.com/questions/552503/stop-asking-for-authentication-to-mount-usb-stick)
 
+### mirrors
+
+`/etc/pacman.d/mirrorlist`
+
+生成地址： https://archlinux.org/mirrorlist/
+
 ### yay
 
 yay -Ps    现状展示
@@ -101,6 +107,8 @@ Chrome 同步难但易用，Firefox 在我这里总有小问题。
 
 MPV 主力播放， VLC 可以看网络直播流，也适合播放整个文件夹。音乐播放用 Audacious ，需要编辑音乐信息装一个 Kid3。听在线音乐可以用 [Listen 1 音乐播放器](https://listen1.github.io/listen1/) 。录音用 yAudacity。
 
+VLC可以批量转换音频视频。
+
 
 #### mpv显示两个字幕
 
@@ -120,9 +128,9 @@ ALT+j add sub-scale -0.1
 
 ### 电子书
 
-Calibre 安装好，导入书库。需要编辑epub 可以安装 Sigil，有打包电子书的需要装 pandoc 
+Calibre 安装好，导入书库。需要编辑epub 可以安装 Sigil，有打包电子书的需要装 pandoc ，安装 `yay -S pandoc-bin`
 
-pdf浏览就装 Evince ，剪裁工具 [krop](http://arminstraub.com/software/krop) 
+pdf浏览就装 Evince ，剪裁工具 [krop](http://arminstraub.com/software/krop) rs
 
 ### pdftk
 
@@ -158,9 +166,11 @@ wget  / [lux-dl](https://github.com/iawia002/lux) / youtube-dl / qbittorrent  / 
 
 `sudo sed -i 's|webui.enable=true|webui.enable=false|' /opt/nutstore/conf/nutstore.properties`
 
+2022.5 坚果云会默认安装轻应用，会自动关联md格式，已放弃。改用 Syncthing
+
 ### 外语学习
 
-GoldenDict 和 anki 装好每天都用d
+GoldenDict 和 anki 装好每天都用
 
 ### Git / SSH
 
@@ -231,9 +241,6 @@ edit /usr/bin/xflock4
 
 
 ## 软件
-
-
-
 
 
 ### SSH and git
