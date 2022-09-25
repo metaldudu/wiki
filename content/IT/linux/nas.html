@@ -8,10 +8,15 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../../wikicss.css" />
@@ -30,6 +35,11 @@
 <li>calibre 电子书库，使用 <a
 href="https://github.com/janeczku/calibre-web">calibre-web</a></li>
 <li>ownCloud</li>
+</ul>
+<p>可以参考的例子：</p>
+<ul>
+<li>https://noted.lol/what-are-your-most-used-self-hosted-applications/</li>
+<li></li>
 </ul>
 <hr />
 <h2 id="cablre-web配置">cablre-web配置</h2>
@@ -70,7 +80,7 @@ https://github.com/janeczku/calibre-web/wiki/Setup-Service-on-Linux</p>
 <p>创建好服务脚本，启动即可</p>
 <h3 id="frpc-反向代理">frpc 反向代理</h3>
 <p><a href="https://github.com/fatedier/frp">fatedier/frp</a></p>
-<p>palm给的frpc服务，下载到 ~/frpc ，配置 frpc.ini</p>
+<p>下载到 ~/frpc ，配置 frpc.ini</p>
 <pre><code>[common]  
 server_addr = 远程IP
 server_port = 远程端口

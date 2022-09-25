@@ -8,6 +8,7 @@
 
  - **content/**
    - **IT/**
+     - [NS游戏与工具](./content/IT/NS游戏与工具.html)
      - [Windows软件推荐](./content/IT/Windows软件推荐.html)
      - [极简启动器对比](./content/IT/极简启动器对比.html)
      - [电子书相关](./content/IT/电子书相关.html)
@@ -24,6 +25,7 @@
        - [Chrome浏览器](./content/IT/软件应用/Chrome浏览器.html)
        - [Firefox浏览器](./content/IT/软件应用/Firefox浏览器.html)
        - [GoldenDict](./content/IT/软件应用/GoldenDict.html)
+       - [Obsidian](./content/IT/软件应用/Obsidian.html)
        - [aria2](./content/IT/软件应用/aria2.html)
        - [ffmpeg](./content/IT/软件应用/ffmpeg.html)
        - [vimwiki](./content/IT/软件应用/vimwiki.html)
@@ -40,12 +42,12 @@
    - **搜集/**
      - [城市生存手记：一个波斯尼亚人的内战生活总结](./content/搜集/城市生存手记：一个波斯尼亚人的内战生活总结.html)
    - **资源/**
+     - [⭐ 网站搜罗](./content/资源/⭐ 网站搜罗.html)
      - [在线免费好片](./content/资源/在线免费好片.html)
      - [好习惯](./content/资源/好习惯.html)
      - [影视下载](./content/资源/影视下载.html)
      - [物品购买](./content/资源/物品购买.html)
      - [电子书](./content/资源/电子书.html)
-     - [网站搜罗](./content/资源/网站搜罗.html)
      - [英语学习相关](./content/资源/英语学习相关.html)
      - [黑猫有声名著阶梯阅读](./content/资源/黑猫有声名著阶梯阅读.html)
 

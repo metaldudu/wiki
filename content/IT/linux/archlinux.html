@@ -8,10 +8,15 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../../wikicss.css" />
@@ -32,6 +37,9 @@
 ，同时当前用户要增加权限。解决弹出提示输入密码的问题：<a
 href="https://askubuntu.com/questions/552503/stop-asking-for-authentication-to-mount-usb-stick">链接</a></li>
 </ul>
+<h3 id="mirrors">mirrors</h3>
+<p><code>/etc/pacman.d/mirrorlist</code></p>
+<p>生成地址： https://archlinux.org/mirrorlist/</p>
 <h3 id="yay">yay</h3>
 <p>yay -Ps 现状展示 yay -Qu 查看待升级的包 yay -Sc 清理</p>
 <h3 id="字体">字体</h3>
@@ -105,6 +113,7 @@ href="https://github.com/lupoDharkael/flameshot">Flameshot</a>
 Audacious ，需要编辑音乐信息装一个 Kid3。听在线音乐可以用 <a
 href="https://listen1.github.io/listen1/">Listen 1 音乐播放器</a>
 。录音用 yAudacity。</p>
+<p>VLC可以批量转换音频视频。</p>
 <h4 id="mpv显示两个字幕">mpv显示两个字幕</h4>
 <p>mpv some-video.mp4 –sub-file=sub1.srt –sub-file=sub2.srt
 –secondary-sid=2</p>
@@ -117,9 +126,10 @@ ALT+k add sub-scale +0.1
 ALT+j add sub-scale -0.1</code></pre>
 <h3 id="电子书">电子书</h3>
 <p>Calibre 安装好，导入书库。需要编辑epub 可以安装
-Sigil，有打包电子书的需要装 pandoc</p>
+Sigil，有打包电子书的需要装 pandoc ，安装
+<code>yay -S pandoc-bin</code></p>
 <p>pdf浏览就装 Evince ，剪裁工具 <a
-href="http://arminstraub.com/software/krop">krop</a></p>
+href="http://arminstraub.com/software/krop">krop</a> rs</p>
 <h3 id="pdftk">pdftk</h3>
 <ul>
 <li>提取pdf信息 <code>pdftk 1.pdf dump_data output out.txt</code></li>
@@ -151,8 +161,10 @@ https://github.com/liupan1890/aliyunpan</p>
 <p>坚果云打开后白屏，按照<a
 href="https://blog.zhullyb.top/2021/10/02/nutstore-guide-on-archlinux-kde/">这里的提示</a>，执行：</p>
 <p><code>sudo sed -i 's|webui.enable=true|webui.enable=false|' /opt/nutstore/conf/nutstore.properties</code></p>
+<p>2022.5 坚果云会默认安装轻应用，会自动关联md格式，已放弃。改用
+Syncthing</p>
 <h3 id="外语学习">外语学习</h3>
-<p>GoldenDict 和 anki 装好每天都用d</p>
+<p>GoldenDict 和 anki 装好每天都用</p>
 <h3 id="git-ssh">Git / SSH</h3>
 <p>安装并配置连接github</p>
 <h3 id="其他问题">其他问题</h3>
