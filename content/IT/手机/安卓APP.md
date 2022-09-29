@@ -40,7 +40,7 @@
 ## 阅读
 
 - [静读天下 Moon+ Reader](https://moondownload.com/chinese.html) : 排版优秀、支持格式丰富，支持OPDS
-- fbReader : 开源，中文字体支持稍逊
+- ~~fbReader : 开源，中文字体支持稍逊~~
 - [Pdf Viewer Plus](https://f-droid.org/en/packages/com.gsnathan.pdfviewer/)：平板看pdf
 - Tachiyomi ：漫画神器
 
@@ -52,21 +52,26 @@
 ## 音乐
 
 - Musicolet Music Player - 功能全面，对播放列表支持很好
-- Listen 1：在线音乐汇集
+- [Listen 1 音乐播放器](https://listen1.github.io/listen1/)：在线音乐汇集
+- [Clean Music Player](https://apkpure.com/clean-music-player/com.myskyspark.music)：类似 1by1 的文件夹播放，缺点是好久不更新后台播放有问题
 
 ## 视频
 
 - VLC : 支持多种格式播放
-- bilibili：谷歌版更清爽一些
+- bilibili：谷歌版无广告
 
 ## Podcast
 
-- AntennaPod : 播客播放，开源
+- [AntennaPod](https://antennapod.org/) : 开源播放器
+
+## RSS
+
+- [Feeder](https://f-droid.org/zh_Hans/packages/com.nononsenseapps.feeder/)
 
 ## 网盘、同步
 
 - 坚果云 : 国产优质
-- Syncthing : 全平台同步用
+- Syncthing : 全平台同步用，可以用 [Syncthing-Fork | F-Droid ](https://f-droid.org/zh_Hans/packages/com.github.catfriend1.syncthingandroid/)
 
 ## 图片
 
@@ -80,8 +85,8 @@
 ## 其他
 
 - AirVisual : 空气质量查询、预测
-- 时钟插件：[Sony Clock widgets APKs - APKMirror](https://www.apkmirror.com/apk/sony-mobile-communications/clock-widgets/)
-- [屏幕时钟](https://www.coolapk.com/apk/com.by_syk.screenclock)
+- 时钟插件：[Sony Clock widgets](https://www.apkmirror.com/apk/sony-mobile-communications/clock-widgets/) [Retro Clock Widget](https://play.google.com/store/apps/details?id=nl.jsource.retroclock.android)
+- 屏幕时钟 com.by_syk.screenclock：非常小巧精致
 
 
 ---
