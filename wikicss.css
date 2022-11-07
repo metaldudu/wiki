@@ -1,11 +1,34 @@
-body {padding:20px;}
-p,li,ul,h3,h4,h5 {font-size: 100%; }
-hr {border: 1px solid #666;}
+body {padding:0;}
+p,li,ul,h3,h4,h5 {font-size: 100%; font-family:Consolas, Monaco, monospace;}
+hr {height:1px; border:none; color:#999; background-color:#999;}
+blockquote {background: #bee9e5; border-left: 4px solid #12aa9c;}
+code{font-family:monospace,monospace;font-size:1em; background-color:#bee9e5;}
 
-a {color: #4078c0;text-decoration: none;}
+a {color: #12aa9c;text-decoration: none;}
 a:hover,a:active {text-decoration: underline;}
 table th,table td {padding: 5px 13px;border: 1px solid #ddd;}
 table tr {background-color: #fff;border-top: 1px solid #ccc;}
 table tr:nth-child(2n) {background-color: #f8f8f8;}
 
-code{font-family:monospace,monospace;font-size:1em; background-color:#E7E9EB;}
+
+#title-block-header {display:none;}
+ul {
+  list-style-type: disc;
+  margin: 0;
+  padding:2px 0;
+}
+ul li {margin-left: 1em;list-style: disc;}
+ul li ul li{margin-left: 1em;list-style: circle;}
+
+.wrap{
+  margin:0 auto;
+  width:80%;
+  }
+#left{
+    width:300px;
+	  height:1200px;
+    background: #f9f9f9;
+    float: left;
+    }
+
+#laodu-wiki {text-decoration: underline;}

@@ -1,3 +1,3 @@
 # wiki
 
-https://metaldudu.github.io/wiki/
+[LAODU WIKI](https://metaldudu.github.io/wiki/)
