@@ -1,5 +1,5 @@
 body {padding:0;}
-p,li,ul,h3,h4,h5 {font-size: 100%; font-family:Consolas, Monaco, monospace;}
+p,li,ul,h1,h2,h3,h4,h5 { font-family:Consolas, Monaco, monospace;}
 hr {height:1px; border:none; color:#999; background-color:#999;}
 blockquote {background: #bee9e5; border-left: 4px solid #12aa9c;}
 code{font-family:monospace,monospace;font-size:1em; background-color:#bee9e5;}
@@ -12,23 +12,12 @@ table tr:nth-child(2n) {background-color: #f8f8f8;}
 
 
 #title-block-header {display:none;}
-ul {
-  list-style-type: disc;
-  margin: 0;
-  padding:2px 0;
-}
+
+ul {color:#999; list-style-type: disc;  margin: 0;  padding:2px 0;}
 ul li {margin-left: 1em;list-style: disc;}
 ul li ul li{margin-left: 1em;list-style: circle;}
 
-.wrap{
-  margin:0 auto;
-  width:80%;
-  }
-#left{
-    width:300px;
-	  height:1200px;
-    background: #f9f9f9;
-    float: left;
-    }
+.wrap{margin:0 auto; width:78%;  }
+#left{width:280px; height:1200px; background-color:#222; float:left; }
 
-#laodu-wiki {text-decoration: underline;}
+#laodu-wiki {color:#999; text-decoration: underline;padding-left:1em;}
