@@ -7,6 +7,7 @@
  - **content/**
    - **game/**
      - [NS游戏与工具](./content/game/NS游戏与工具.html)
+     - [在线小游戏](./content/game/在线小游戏.html)
    - **linux/**
      - [archlinux](./content/linux/archlinux.html)
      - [git](./content/linux/git.html)
@@ -32,6 +33,8 @@
      - [英语听力资源](./content/英语学习/英语听力资源.html)
      - [黑猫有声名著阶梯阅读](./content/英语学习/黑猫有声名著阶梯阅读.html)
    - **资源/**
+     - [传统颜色](./content/资源/传统颜色.html)
+     - [免费字体](./content/资源/免费字体.html)
      - [在线免费好片](./content/资源/在线免费好片.html)
      - [好习惯](./content/资源/好习惯.html)
      - [影视下载](./content/资源/影视下载.html)

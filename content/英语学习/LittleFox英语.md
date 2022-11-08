@@ -121,15 +121,5 @@
 - 6 《20,000 Leagues Under the Sea》（30篇）AR5.7（改编自《海底两万里》） 
 - 7 《Les Misérables》（30篇）AR5.0（改编自《悲惨世界》） 
 - 8 《短篇故事》（60篇） 
-- 1 《Tire Town School》（72篇）AR1.5 
-- 2 《Dino Buddies》（44篇）AR1.4 
-- 3 《Bat and Friends》(72篇)AR1.3 
-- 4 《ABC Book》（26篇）AR0.8（自然拼读入门动画） 
-- 5 《Word Families》（20篇）AR0.9（自然拼读向） 
-- 6 《Where Am I?》（20篇）AR0.8 
-- 7 《Who Am I?》（20篇）AR0.9 
-- 8 《Mrs. Kelly’s Class 》（36篇）AR0.8（基础对话向） 
-- 9 《The Big Green Forest 》（24篇）AR1.3 
-- 10 《短篇故事》（68篇） 
 
 
