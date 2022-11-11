@@ -3,6 +3,7 @@
 - [ffmpeg 入门笔记](http://einverne.github.io/post/2015/12/ffmpeg-first.html)
 
 转换格式：`ffmpeg -i "1.webm" -vn -ab 128k -ar 44100 -y "1.mp3"`
+
 下载HLS在线视频： `ffmpeg -i "https://www3.yuboyun.com/hls/2018/11/05/KCEwXYoY/playlist.m3u8" -codec copy 1.ts `
 
 b站flv转mp4：`ffmpeg -i S02E06.flv -c copy -copyts S02E06.mp4`

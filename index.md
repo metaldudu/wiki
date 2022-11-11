@@ -36,6 +36,7 @@
      - [传统颜色](./content/资源/传统颜色.html)
      - [免费字体](./content/资源/免费字体.html)
      - [在线免费好片](./content/资源/在线免费好片.html)
+     - [天干地支](./content/资源/天干地支.html)
      - [好习惯](./content/资源/好习惯.html)
      - [影视下载](./content/资源/影视下载.html)
      - [物品购买](./content/资源/物品购买.html)
