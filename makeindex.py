@@ -43,7 +43,7 @@ HEADER1_UNDERLINE_RE = re.compile("^-+$")
 HEADER2_UNDERLINE_RE = re.compile("^=+$")
 
 # 不处理此目录下的markdown文件
-exclude_dir = ('css', 'template','imgs')
+exclude_dir = ('assets', 'template','imgs')
 exclude_file = ('index.md', 'README.md')
 
 
