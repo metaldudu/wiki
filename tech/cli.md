@@ -13,6 +13,10 @@ neofetch [https://github.com/dylanaraps/neofetch](https://github.com/dylanaraps/
 
 ansiweather [https://github.com/fcambus/ansiweather](https://github.com/fcambus/ansiweather)
 
+### 显示时钟
+
+tty-clock [https://github.com/xorg62/tty-clock](https://github.com/xorg62/tty-clock)
+
 ## 音乐播放
 
 [cmus](https://github.com/cmus/cmus)

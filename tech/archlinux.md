@@ -25,7 +25,6 @@ date: 2022-12-04
 `yay -Qu` 查看待升级的包
 `yay -Sc`    清理
 
-
 ### 字体
 
 查看中文字体： `fc-list :lang=zh` 可以看到字体名，便于配置软件
@@ -200,7 +199,7 @@ GoldenDict 和 anki 装好每天都用
 
 #### 浏览器无法打开telegram 链接
 
-``~/.local/share/applications` 找到 userapp-Telegram Desktop-xxxx.desktop ,在文件的最后添加一行：
+`~/.local/share/applications` 找到 userapp-Telegram Desktop-xxxx.desktop ,在文件的最后添加一行：
 
 `MimeType=application/x-xdg-protocol-tg;x-scheme-handler/tg;`
 
