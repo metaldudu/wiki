@@ -3,7 +3,7 @@ title: CLI
 date: 2022-12-12
 ---
 
-用命令行解决问题
+## 常用工具
 
 ### 显示主机信息
 
@@ -17,19 +17,23 @@ ansiweather [https://github.com/fcambus/ansiweather](https://github.com/fcambus/
 
 tty-clock [https://github.com/xorg62/tty-clock](https://github.com/xorg62/tty-clock)
 
-## 音乐播放
+## RSS阅读器
 
-[cmus](https://github.com/cmus/cmus)
+newsboat [https://github.com/newsboat/newsboat](https://github.com/newsboat/newsboat)
 
-## 音乐转换处理
+## 音乐
 
-参考： https://wiki.archlinux.org/title/CUE_Splitting ，安装 shntool `yay -S shntool`
+cmus [https://github.com/cmus/cmus](https://github.com/cmus/cmus)
 
-分割 file.flac ，注意 cue 文件编码为 UTF-8
+### 音乐转换处理
+
+参考[wiki](https://wiki.archlinux.org/title/CUE_Splitting) ，安装 shntool `yay -S shntool`
+
+分割音频文件为flac ，注意 cue 文件编码为 UTF-8
 
 `shnsplit -f CDImage.cue -t "%n - %t" -o flac CDImage.wav`
 
-操作ape文件需要装 mac `yay -S mac`
+如果操作ape文件需要装 mac `yay -S mac`
 
 ## 重命名
 
@@ -47,7 +51,7 @@ perl版本的rename 支持正则匹配，C版本不行
 
 `for f in *; do mv "$f" "00$f"; done`
 
-#### 把空格替换成.
+### 把空格替换成.
 
 `for f in *; do mv -i "$f" "${f// /.}"; done`
 

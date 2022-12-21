@@ -5,6 +5,7 @@
     <meta name="date" content='2022-12-04'>
     <title>archlinux安装使用</title>
     <link rel="stylesheet" href="../assets/wikicss.css" />
+    <link rel="shortcut icon" href="../favicon.ico">
   </head>
   <body>
     <div class="w">
@@ -31,20 +32,25 @@ href="https://archlinux.org/mirrorlist/">https://archlinux.org/mirrorlist/</a></
 <p>查看中文字体： <code>fc-list :lang=zh</code>
 可以看到字体名，便于配置软件</p>
 <ul>
-<li>等宽字体： <code>pacman -S ttf-dejavu</code>
-<code>pacman -S otf-fira-mono</code></li>
+<li>等宽字体： <code>pacman -S ttf-dejavu</code></li>
+<li>编程字体：<a href="https://github.com/tonsky/FiraCode">Fira
+Code</a></li>
+<li>文泉驿微米黑：wqy-microhei`</li>
 <li>emoji：noto-fonts-emoji</li>
-<li>谷歌东亚字体：noto-fonts-cjk</li>
-<li>文泉驿微米黑：wqy-microhei</li>
-<li>思源宋体和黑体： adobe-source-han-serif-cn-fonts 和
+<li>谷歌东亚字体，包含中日韩：<code>noto-fonts-cjk</code></li>
+<li>思源黑体，和上面一样，我选择这个：
 adobe-source-han-sans-cn-fonts</li>
-<li>简体中文等距更纱黑体+Nerd图标字体库。
-<code>yay -S nerd-fonts-sarasa-mono</code></li>
+<li>思源宋体 adobe-source-han-serif-cn-fonts<br />
+</li>
+<li><a
+href="https://github.com/laishulu/Sarasa-Mono-SC-Nerd">简体中文等距更纱黑体+Nerd图标字体库</a>
+适合终端中英文混排使用 <code>yay -S nerd-fonts-sarasa-mono</code></li>
 </ul>
 <p>自己安装的字体放到 <code>~/.local/share/fonts</code></p>
 <p>适合阅读和电纸书的字体</p>
 <ul>
-<li>霞鹜文楷（免费）</li>
+<li><a
+href="https://github.com/lxgw/LxgwWenKai">霞鹜文楷</a>（免费）</li>
 <li>仓耳今楷（个人非商用免费）</li>
 <li>方正屏显雅宋（付费，屏幕显示优化）</li>
 <li>方正宋刻本秀楷</li>

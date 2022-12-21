@@ -29,19 +29,20 @@ date: 2022-12-04
 
 查看中文字体： `fc-list :lang=zh` 可以看到字体名，便于配置软件
 
-- 等宽字体： `pacman -S ttf-dejavu` `pacman -S otf-fira-mono
-`
+- 等宽字体： `pacman -S ttf-dejavu` 
+- 编程字体：[Fira Code](https://github.com/tonsky/FiraCode)
+- 文泉驿微米黑：wqy-microhei`
 - emoji：noto-fonts-emoji
-- 谷歌东亚字体：noto-fonts-cjk
-- 文泉驿微米黑：wqy-microhei
-- 思源宋体和黑体： adobe-source-han-serif-cn-fonts 和 adobe-source-han-sans-cn-fonts
-- 简体中文等距更纱黑体+Nerd图标字体库。 `yay -S nerd-fonts-sarasa-mono`
+- 谷歌东亚字体，包含中日韩：`noto-fonts-cjk` 
+- 思源黑体，和上面一样，我选择这个： adobe-source-han-sans-cn-fonts 
+- 思源宋体 adobe-source-han-serif-cn-fonts  
+- [简体中文等距更纱黑体+Nerd图标字体库](https://github.com/laishulu/Sarasa-Mono-SC-Nerd) 适合终端中英文混排使用  `yay -S nerd-fonts-sarasa-mono`
 
 自己安装的字体放到 `~/.local/share/fonts`
 
 适合阅读和电纸书的字体
 
-- 霞鹜文楷（免费）
+- [霞鹜文楷](https://github.com/lxgw/LxgwWenKai)（免费）
 - 仓耳今楷（个人非商用免费）
 - 方正屏显雅宋（付费，屏幕显示优化）
 - 方正宋刻本秀楷

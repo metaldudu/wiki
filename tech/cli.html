@@ -5,11 +5,12 @@
     <meta name="date" content='2022-12-12'>
     <title>CLI</title>
     <link rel="stylesheet" href="../assets/wikicss.css" />
+    <link rel="shortcut icon" href="../favicon.ico">
   </head>
   <body>
     <div class="w">
       <p><a href="../index.html">..</a></p>
-<p>用命令行解决问题</p>
+<h2 id="常用工具">常用工具</h2>
 <h3 id="显示主机信息">显示主机信息</h3>
 <p>neofetch <a
 href="https://github.com/dylanaraps/neofetch">https://github.com/dylanaraps/neofetch</a></p>
@@ -19,14 +20,18 @@ href="https://github.com/fcambus/ansiweather">https://github.com/fcambus/ansiwea
 <h3 id="显示时钟">显示时钟</h3>
 <p>tty-clock <a
 href="https://github.com/xorg62/tty-clock">https://github.com/xorg62/tty-clock</a></p>
-<h2 id="音乐播放">音乐播放</h2>
-<p><a href="https://github.com/cmus/cmus">cmus</a></p>
-<h2 id="音乐转换处理">音乐转换处理</h2>
-<p>参考： https://wiki.archlinux.org/title/CUE_Splitting ，安装 shntool
-<code>yay -S shntool</code></p>
-<p>分割 file.flac ，注意 cue 文件编码为 UTF-8</p>
+<h2 id="rss阅读器">RSS阅读器</h2>
+<p>newsboat <a
+href="https://github.com/newsboat/newsboat">https://github.com/newsboat/newsboat</a></p>
+<h2 id="音乐">音乐</h2>
+<p>cmus <a
+href="https://github.com/cmus/cmus">https://github.com/cmus/cmus</a></p>
+<h3 id="音乐转换处理">音乐转换处理</h3>
+<p>参考<a href="https://wiki.archlinux.org/title/CUE_Splitting">wiki</a>
+，安装 shntool <code>yay -S shntool</code></p>
+<p>分割音频文件为flac ，注意 cue 文件编码为 UTF-8</p>
 <p><code>shnsplit -f CDImage.cue -t "%n - %t" -o flac CDImage.wav</code></p>
-<p>操作ape文件需要装 mac <code>yay -S mac</code></p>
+<p>如果操作ape文件需要装 mac <code>yay -S mac</code></p>
 <h2 id="重命名">重命名</h2>
 <h3 id="rename重命名">rename重命名</h3>
 <p><code>rename</code>命令，archlinux的版本是C语言的，man查看例子：<code>rename .htm .html *.htm</code></p>
@@ -35,7 +40,7 @@ href="https://github.com/xorg62/tty-clock">https://github.com/xorg62/tty-clock</
 <p><code>for f in *; do mv "$f" "$f.mp3"; done</code></p>
 <h3 id="按照001002这样排序">按照001/002这样排序：</h3>
 <p><code>for f in *; do mv "$f" "00$f"; done</code></p>
-<h4 id="把空格替换成.">把空格替换成.</h4>
+<h3 id="把空格替换成.">把空格替换成.</h3>
 <p><code>for f in *; do mv -i "$f" "${f// /.}"; done</code></p>
 
       <hr/>
