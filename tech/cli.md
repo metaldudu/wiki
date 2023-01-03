@@ -1,6 +1,6 @@
 ---
 title: CLI
-date: 2022-12-12
+date: 2023-01-03
 ---
 
 ## 常用工具
@@ -15,9 +15,12 @@ ansiweather [https://github.com/fcambus/ansiweather](https://github.com/fcambus/
 
 ### 显示时钟
 
-tty-clock [https://github.com/xorg62/tty-clock](https://github.com/xorg62/tty-clock)
+tty-clock，大字体、多种颜色 [https://github.com/xorg62/tty-clock](https://github.com/xorg62/tty-clock)
 
-## RSS阅读器
+### 词典
+cambrinary，查询剑桥在线词典 [https://github.com/xueyuanl/cambrinary](https://github.com/xueyuanl/cambrinary)
+
+### RSS阅读器
 
 newsboat [https://github.com/newsboat/newsboat](https://github.com/newsboat/newsboat)
 

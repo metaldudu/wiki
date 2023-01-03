@@ -62,6 +62,10 @@ date: 2022-12-04
 
 壁纸位置在：~/.local/share/xfce4/backdrops/
 
+【故障】桌面窗口标题栏消失，无法拖动和改变大小，或者面板消失。解决方法：
+
+`xfwm4 --replace &`
+
 ### 图标
 
 所有的图标在：`/usr/share/icons/`
