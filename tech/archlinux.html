@@ -68,6 +68,8 @@ pulseaudio。安装　<code>xfce4-pulseaudio-plugin</code>
 <li>截图：<code>flameshot gui &gt; win+3</code></li>
 </ul>
 <p>壁纸位置在：~/.local/share/xfce4/backdrops/</p>
+<p>【故障】桌面窗口标题栏消失，无法拖动和改变大小，或者面板消失。解决方法：</p>
+<p><code>xfwm4 --replace &amp;</code></p>
 <h3 id="图标">图标</h3>
 <p>所有的图标在：<code>/usr/share/icons/</code></p>
 <h3 id="网络">网络</h3>
@@ -112,13 +114,14 @@ href="https://listen1.github.io/listen1/">Listen 1 音乐播放器</a>
 <h4 id="mpv显示两个字幕">mpv显示两个字幕</h4>
 <p>mpv some-video.mp4 –sub-file=sub1.srt –sub-file=sub2.srt
 –secondary-sid=2</p>
-<p>在线工具合并两个字幕：https://easypronunciation.com/zh/merge-two-subtitle-files-online</p>
-<p>mpv调整字幕大小，在 ~/.config/mpv/input.conf 加入：</p>
-<pre><code># increase subtitle font size
-ALT+k add sub-scale +0.1
-
-# decrease subtitle font size
-ALT+j add sub-scale -0.1</code></pre>
+<p>在线工具合并两个字幕：
+https://easypronunciation.com/zh/merge-two-subtitle-files-online</p>
+<p>mpv调整字幕大小</p>
+<ul>
+<li>shitft + g : to increase font size</li>
+<li>shitft + f : to decrease font size</li>
+</ul>
+<p>官方快捷键： https://mpv.io/manual/master/</p>
 <h3 id="电子书">电子书</h3>
 <p>Calibre 安装好，导入书库。需要编辑epub 可以安装
 Sigil，有打包电子书的需要装 pandoc ，安装
