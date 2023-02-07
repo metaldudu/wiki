@@ -123,16 +123,14 @@ VLC可以批量转换音频视频，也可以订阅 podcast
 
 mpv some-video.mp4 --sub-file=sub1.srt --sub-file=sub2.srt --secondary-sid=2
 
-在线工具合并两个字幕：https://easypronunciation.com/zh/merge-two-subtitle-files-online
+在线工具合并两个字幕： https://easypronunciation.com/zh/merge-two-subtitle-files-online
 
-mpv调整字幕大小，在 ~/.config/mpv/input.conf 加入：
-```
-# increase subtitle font size
-ALT+k add sub-scale +0.1
+mpv调整字幕大小
 
-# decrease subtitle font size
-ALT+j add sub-scale -0.1
-```
+- shitft + g : to increase font size
+- shitft + f : to decrease font size
+
+官方快捷键： https://mpv.io/manual/master/
 
 ### 电子书
 
