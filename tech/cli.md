@@ -17,7 +17,12 @@ ansiweather [https://github.com/fcambus/ansiweather](https://github.com/fcambus/
 
 tty-clock，大字体、多种颜色 [https://github.com/xorg62/tty-clock](https://github.com/xorg62/tty-clock)
 
+### 显示音乐波动
+
+cava [https://github.com/karlstav/cava](https://github.com/karlstav/cava)
+
 ### 词典
+
 cambrinary，查询剑桥在线词典 [https://github.com/xueyuanl/cambrinary](https://github.com/xueyuanl/cambrinary)
 
 ### RSS阅读器

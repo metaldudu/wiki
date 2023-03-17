@@ -5,6 +5,7 @@
 
  - **game/**
    - [NS游戏与工具](./game/NS游戏与工具.html)
+   - [XBOX](./game/XBOX.html)
    - [在线小游戏](./game/在线小游戏.html)
  - **tech/**
    - [Windows软件推荐](./tech/Windows软件推荐.html)

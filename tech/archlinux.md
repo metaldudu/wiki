@@ -96,6 +96,8 @@ aliass ip="curl ipinfo.io"
 
 Firefox 主力可同步，Chrome 备用
 
+Firefox 自定义布局： https://github.com/Dook97/firefox-qutebrowser-userchrome
+
 ### 输入法
 
 选择 fcitx5 和 rime ，使用：
@@ -136,7 +138,7 @@ mpv调整字幕大小
 
 Calibre 安装好，导入书库。需要编辑epub 可以安装 Sigil，有打包电子书的需要装 pandoc ，安装 `yay -S pandoc-bin`
 
-pdf浏览就装 Evince ，剪裁工具 [krop](http://arminstraub.com/software/krop) rs
+pdf浏览就装 Evince ，图形化的PDF剪裁工具 [krop](http://arminstraub.com/software/krop) 
 
 #### pdftk
 
